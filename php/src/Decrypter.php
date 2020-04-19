@@ -3,6 +3,7 @@
 require __DIR__."/BackupCipher.php";
 require __DIR__."/BackupKey.php";
 
+ini_set('memory_limit', '1024M');
 
 class Decrypter {
 
